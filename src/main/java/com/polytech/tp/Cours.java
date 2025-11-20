@@ -36,4 +36,36 @@ public class Cours implements ICours {
     
     public String getMatiere() { return matiere; }
     public String getEnseignant() { return enseignant; }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setEnseignant(String enseignant) {
+        this.enseignant = enseignant;
+    }
+
+    public void setSalle(String salle) {
+        this.salle = salle;
+    }
+
+    public void setNiveau(String niveau) {
+        this.niveau = niveau;
+    }
+
+    public void setNecessiteProjecteur(boolean necessiteProjecteur) {
+        this.necessiteProjecteur = necessiteProjecteur;
+    }
+
+    public void setMatiere(String matiere) {
+        this.matiere = matiere;
+    }
+
+    public void setEstOptionnel(boolean estOptionnel) {
+        this.estOptionnel = estOptionnel;
+    }
+
+    public void setHeureDebut(String heureDebut) {
+        this.heureDebut = heureDebut;
+    }
 }
